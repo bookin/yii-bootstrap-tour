@@ -34,27 +34,7 @@ class Tour extends CWidget
      */
     public $options = [];
 
-    protected $defaultOptions = [
-        'template'=>"js:function(i, step){
-            var html = $(\"\
-                <div class='popover tour'>\
-                    <div class='arrow'></div>\
-                    <h3 class='header'>\
-                        <a class='close pull-right' data-role='end'>\
-                            <span class='glyphicon glyphicon-remove' aria-hidden='true'></span>\
-                        </a>\
-                    </h3>\
-                    <div class='popover-content'></div>\
-                    <div class='popover-navigation'>\
-                        <a class='btn btn-link' data-role='prev'>&#171; Prev</a>\
-                        <a class='btn btn-link' data-role='next'>Next &#187;</a>\
-                    </div>\
-                </div>\
-            \");
-            html.find('.header').prepend(step.title).end().children('.popover-content').prepend(step.content);
-            return html;
-        }"
-    ];
+    protected $defaultOptions = [];
 
     private $assetsDir;
 
