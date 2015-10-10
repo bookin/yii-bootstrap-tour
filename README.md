@@ -1,4 +1,4 @@
-This is a Bootstrap Tour extension for Yii 1.1.*
+This is a [Bootstrap Tour](http://bootstraptour.com/) extension for Yii 1.1.*
 
 It encapsulates the Bootstrap Tour component in terms of a Yii widget, and thus makes using Bootstrap Tour component in Yii applications extremely easy.
 
