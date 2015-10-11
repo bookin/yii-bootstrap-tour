@@ -32,3 +32,6 @@ $this->widget('ext.bootstrap-tour.Tour', [
 ]);
 ?>
 ```
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bookin/yii-bootstrap-tour/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
